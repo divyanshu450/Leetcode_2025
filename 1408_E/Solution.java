@@ -2,7 +2,6 @@ import java.util.*;// importing package to run in local..
 
 public class Solution {
     public static void main(String args[]){
-        
         String[] words = {"mass","as","hero","superhero"};
         System.out.println("INPUT: "+Arrays.toString(words));
         List<String> result = stringMatching(words);
@@ -19,8 +18,28 @@ public class Solution {
 
     }
 
-//TC: O(n log n + n^2 * k) where n is the number of words and k is the average length of the strings. Also O(n log n) is from Arrays.sort()
-//SC: O(n + k)
+    //TC: O(n+k^2);
+    //SC: O(k);
+    //Using KPM Algorithm
+    public static List<String> stringMatching(String[] words) {
+        List<String> list = new ArrayList<String>();
+        for(int i = 0; i < words.length; i++){
+            for(int j = 0 ; j <words.length; j++){
+                // if(i == j) continue;
+                boolean check = i!= j ? words[j].contains(words[i]) : false;
+                if( check){
+                    list.add(words[i]);
+                    break;
+                }
+                
+            }
+        }
+        return list;
+    }
+
+    /* 
+    //TC: O(n log n + n^2 * k) where n is the number of words and k is the average length of the strings. Also O(n log n) is from Arrays.sort()
+    //SC: O(n + k)
     public static List<String> stringMatching(String[] words) {
         List<String> list = new ArrayList<String>();
         Arrays.sort( words, new Comparator<String>() {
@@ -45,4 +64,5 @@ public class Solution {
         }
         return list;
     }
+        */
 }
