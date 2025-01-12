@@ -1,6 +1,7 @@
 # Leetcode_2025
 # Table of questions
 # Representation: Folder Suffix represents difficulty of that problem as 'E': Easy, 'M': Medium and 'H': Hard
+# Solutions missing: 1400
 
 | S.No | LeetCode S.No. | Title                                                                 |
 |------|----------------|----------------------------------------------------------------------|
@@ -10,5 +11,5 @@
 | 4    | [2185](https://leetcode.com/problems/counting-words-with-a-given-prefix/)    | [Counting Words With a Given Prefix](./2185_E) |
 | 5    | [916](https://leetcode.com/problems/word-subsets/)    | [Word Subsets](./916_M) |
 | 6    | [2116](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)    | [Check if a Parentheses String Can Be Valid](./2116_M) |
-| 6    | [3417](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/)    | [Zigzag Grid Traversal With Skip](./3417_E) |
+| 7    | [3417](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/)    | [Zigzag Grid Traversal With Skip](./3417_E) |
 
