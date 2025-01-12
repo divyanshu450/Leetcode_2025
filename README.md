@@ -9,4 +9,5 @@
 | 3    | [3042](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)    | [Count Prefix and Suffix Pairs I](./3042_E) |
 | 4    | [2185](https://leetcode.com/problems/counting-words-with-a-given-prefix/)    | [Counting Words With a Given Prefix](./2185_E) |
 | 5    | [916](https://leetcode.com/problems/word-subsets/)    | [Word Subsets](./916_M) |
+| 6    | [2116](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)    | [Word Subsets](./2116_M) |
 
